@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<title>V</title>
+	<link href="css/animate.css" rel="stylesheet">
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.lettering.js"></script>
+	<script src="js/jquery.textillate.js"></script>
+	<script>
+	$(function () {
+		$('.text1').textillate({	//文章标题
+			initialDelay: 5000,	//出现时间
+			in: { effect: 'flipInX'}});
+		$('.text2').textillate({
+			initialDelay: 8000,
+			in: { effect: 'flipInX'}});
+		$('.text3').textillate({	//日期
+			initialDelay: 13000,
+			in: { effect: 'flipInX'}});
+		$('.text4').textillate({	//by Vip小木子
+			initialDelay: 15000,
+			in: { effect: 'bounceInDown' }});
+	})
+
+	</script>
+		<style type="text/css">
+		body {background:000000}
+		div {width:88%;margin:0 auto}
+		.text1,.text2,.text3,.text4 {visibility:hidden}
+		.text1 {margin:5px;text-align:center;font-size:12px;font-weight:bold;color:#707070}
+		.text2 {font-family:microsoft yahei;font-size:9px;color:#707070}
+		.text3 {font-family:microsoft yahei;font-size:9px;color:#707070;text-align:right}
+		.text4 {font-family:microsoft yahei;font-weight:bold;text-align:right;color:#707070}
+		center {position:fixed;bottom:10px;text-align:center;width:100%}
+		center a {margin:10px; color:#666;text-decoration:none}
+		center a:hover {margin:10px; color:#666;text-decoration:underline}
+	</style>
+	<body>
+		<div>	
+			<table width="80%" style="font-size:28px;font-weight:bold;color:#FF7F50" border="0" align="center">
+				<tr>
+					<td align="center" ><img src="https://www.showdoc.cc/server/api/common/visitfile/sign/6baaaecb882ddb2322a0a1449342073f?showdoc=.jpg" onclick="location.href='http://www.infov.top/blog';"></td>
+					<td align="center" ><img src="https://www.showdoc.cc/server/api/common/visitfile/sign/699289acab3a66bf939e5970c3a16de8?showdoc=.jpg" onclick="location.href='http://www.infov.top/';"></td>
+					<td align="center" ><img src="https://www.showdoc.cc/server/api/common/visitfile/sign/09fa6d1dc04fcbf6ccd807f62029e609?showdoc=.jpg" onclick="location.href='http://www.infov.top/about';"></td>
+				</tr>
+			</table>
+			<hr />
+			<hr />
+			<p class="text1">致一年后的自己</p>
+			<p class="text2">面对没有彩虹的明天，今在此执笔结束自己游戏人生的态度，重写命运，望一年后的自己不再一无是处！</p>
+			<p class="text3">2018-06-21</p>
+			<p class="text4">by Vip小木子</p>
+		</div>
+	</body>
+</html>
